@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-    title: 'Sacred.Finance',
+    title: 'Sacred Finance',
     tagline: 'Liberating Speech',
     url: 'https://sacred.finance',
     baseUrl: '/',
@@ -34,9 +34,6 @@ const config = {
             ({
                 docs: {
                     sidebarPath: require.resolve('./sidebars.js'),
-                    // Remove this to remove the "edit this page" links.
-                    editUrl:
-                        'https://github.com/Sacred-Finance/sacred-community-docs',
                 },
                 theme: {
                     customCss: require.resolve('./src/css/custom.css'),
@@ -61,6 +58,18 @@ const config = {
                         position: 'left',
                         label: 'Tutorial',
                     },
+                    {
+                        type: 'doc',
+                        docId: 'intro',
+                        position: 'left',
+                        label: 'Join an Organization',
+                    },
+                    {
+                        type: 'doc',
+                        docId: 'intro',
+                        position: 'left',
+                        label: 'Manage your Organization',
+                    },
                 ],
             },
             footer: {
@@ -79,16 +88,12 @@ const config = {
                         title: 'Community',
                         items: [
                             {
-                                label: 'Stack Overflow',
-                                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-                            },
-                            {
                                 label: 'Discord',
-                                href: 'https://discordapp.com/invite/docusaurus',
+                                href: 'https://discord.gg/HTTWEf2XKb',
                             },
                             {
                                 label: 'Twitter',
-                                href: 'https://twitter.com/docusaurus',
+                                href: 'https://twitter.com/sacredfinance_',
                             },
                         ],
                     },
