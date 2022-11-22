@@ -34,9 +34,6 @@ const config = {
             ({
                 docs: {
                     sidebarPath: require.resolve('./sidebars.js'),
-                    // Remove this to remove the "edit this page" links.
-                    editUrl:
-                        'https://github.com/Sacred-Finance/sacred-community-docs',
                 },
                 theme: {
                     customCss: require.resolve('./src/css/custom.css'),
@@ -60,6 +57,18 @@ const config = {
                         docId: 'intro',
                         position: 'left',
                         label: 'Tutorial',
+                    },
+                    {
+                        type: 'doc',
+                        docId: 'intro',
+                        position: 'left',
+                        label: 'Join an Organization',
+                    },
+                    {
+                        type: 'doc',
+                        docId: 'intro',
+                        position: 'left',
+                        label: 'Manage your Organization',
                     },
                 ],
             },
